@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <style>
+    /* CSS styles */
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    /* Main content styles */
+    main {
+      margin: 20px;
+    }
+
+    h2 {
+      color: #333;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+
+    /* Team member carousel styles */
+    .team-carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      margin-bottom: 20px;
+    }
+
+    .team-member {
+      flex: 0 0 300px;
+      margin-right: 20px;
+      scroll-snap-align: start;
+    }
+
+    .team-member img {
+      width: 100%;
+      height: auto;
+    }
+
+    .team-member h3 {
+      margin-top: 10px;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Media queries for responsive design */
+    @media (max-width: 600px) {
+      main {
+        margin: 10px;
+      }
+
+      .team-carousel {
+        flex-wrap: nowrap;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Us</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Who We Are</h2>
+      <p>Welcome to our roadmap website! We are a dedicated team of enthusiasts who are passionate about helping people plan and achieve their goals. Our goal is to provide you with the tools and resources to create a clear roadmap towards success.</p>
+    </section>
+
+    <section>
+      <h2>What We Offer</h2>
+      <p>Our website offers a variety of features to assist you in your journey. You can create personalized roadmaps, track your progress, and access a wealth of resources to support your growth. Whether you're pursuing personal development, career advancement, or any other goal, we're here to help.</p>
+    </section>
+
+    <section>
+      <h2>Our Team</h2>
+      <div class="team-carousel">
+        <div class="team-member">
+          <img src="team_member1.jpg" alt="Team Member 1">
+          <h3>John Doe</h3>
+          <p>Role: Project Manager</p>
+        </div>
+        <div class="team-member">
+          <img src="team_member2.jpg" alt="Team Member 2">
+          <h3>Jane Smith</h3>
+          <p>Role: Designer</p>
+        </div>
+        <div class="team-member">
+          <img src="team_member3.jpg" alt="Team Member 3">
+          <h3>David Johnson</h3>
+          <p>Role: Developer</p>
+        </div>
+        <div class="team-member">
+          <img src="team_member4.jpg" alt="Team Member 4">
+          <h3>Sarah Williams</h3>
+          </div>
